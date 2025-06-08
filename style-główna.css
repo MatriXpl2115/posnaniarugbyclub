@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.naglowek {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 60px; 
+    height: 30px;    
+    margin-right: 50px;
+}
+
+.tytul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: rgba(246, 234, 234, 0.859);
+    padding-left: 20px;
+}
+
+
+.tabela1 {
+    background-color: rgb(0, 0, 0);
+}
+
+.menu {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  background-color: #df3d3d; 
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 25px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #ff2424; 
+}
+
+.grafika {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.grafika img {
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+article {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.galeria img {
+    width: 30%;
+    height: 210px;
+    margin: auto;
+}
+
+.galeria2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.galeria2 img {
+    width: 30%;
+    height: 250px;
+    margin: auto;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(186, 31, 31);
+}
